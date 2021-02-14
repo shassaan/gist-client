@@ -4,7 +4,7 @@ const FilesComponent = (prop) => {
         <div>
             <ul>
                 {
-                    Object.keys(files).map(key => <li><a href={files[key].raw_url} target="_blank">{key}</a></li>)
+                    Object.keys(files).map(key => <li key={key}><a href={files[key].raw_url} target="_blank">{key}</a></li>)
                 }
             </ul>
         </div>

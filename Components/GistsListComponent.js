@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import FilesComponent from './FilesComponents';
+import ForksComponent from './ForksComponent';
 const GistsList = (prop) => {
     const {list}= prop || null;
     
@@ -9,6 +10,8 @@ const GistsList = (prop) => {
                         <h3>{gist.owner.login} &rarr;</h3>
                         <p>{gist.description}</p>
                         <FilesComponent files = {gist.files}/>
+                        <hr/>
+                        <ForksComponent url={gist.forks_url}/>
                     </div>
                 )}
     </div>

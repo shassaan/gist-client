@@ -1,0 +1,9 @@
+.image {
+    border-radius: 50px;
+    margin: 6px;
+}
+
+.forkContainer {
+    display: flex;
+    align-items: center;
+}
