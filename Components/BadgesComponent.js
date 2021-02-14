@@ -7,7 +7,7 @@ const BadgesComponent = (props) => {
             {
                 languages.map(l => 
                     {
-                        return <>{!l?<></>: <span className={styles.badge}>{l}</span>}{' '}</>
+                        return <><span className={styles.badge}>{l}</span> {' '}</>
                     })
             }
         </>
