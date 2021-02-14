@@ -1,0 +1,14 @@
+.search {
+    display: flex;
+    margin: 4%;
+}
+
+.searchBox {
+    width: 600px;
+    padding: 9px;
+}
+
+.searchButton {
+    border: navajowhite;
+    cursor: pointer;
+}
