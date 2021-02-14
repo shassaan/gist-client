@@ -95,7 +95,22 @@
 .card:hover,
 .card:focus,
 .card:active {
+ 
+  border-color: #0070f3;
+  cursor: initial;
+}
+
+.card a {
   color: #0070f3;
+  border-bottom: 1px solid #0070f3;
+}
+
+.card li{
+  margin: 2px;
+}
+
+.card a :hover{
+  
   border-color: #0070f3;
 }
 
